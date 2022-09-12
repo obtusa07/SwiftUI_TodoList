@@ -5,6 +5,6 @@
 
 - MVVM
 - Safe Coding (never crashes)
-- adaptable good looking for iphone and iPads
+- Good looking for iphone and iPads
 - Portrait and landscape mode
 - Light/dark mode
