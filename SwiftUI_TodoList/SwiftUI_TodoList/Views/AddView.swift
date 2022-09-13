@@ -55,6 +55,7 @@ struct AddView: View {
         //
         return true
     }
+    // TODO: 아래 Alert으로 리턴하는건 deprecated임. 다음 메소드 찾아서 고칠것
     func getAlert() -> Alert {
         return Alert(title: Text(alertTitle))
     }
