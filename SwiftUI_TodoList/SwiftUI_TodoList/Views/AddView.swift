@@ -12,6 +12,8 @@ struct AddView: View {
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var listViewMoel: ListViewModel
     @State var textFiledText: String = ""
+    @State var alertTitle: String = ""
+    @State var showAlert: Bool = false
     var body: some View {
         VStack {
             ScrollView {
@@ -33,13 +35,28 @@ struct AddView: View {
                 }
             }
             .navigationTitle("Add an Item ✏️")
+            .alert(isPresented: $showAlert, content: getAlert)
         }
         .padding(14)
     }
     func saveButtonPressed() {
-        listViewMoel.addItem(title: textFiledText)
-        presentationMode.wrappedValue.dismiss()
-        // Environment에서 PresentationMode를 선언하고 해당 변수에 wrappedValue를 dismiss하면 해당 네비게이션 하이라키에서 뒤로 돌아갈수 있다.
+        if textIsAppropriate() {
+            listViewMoel.addItem(title: textFiledText)
+            presentationMode.wrappedValue.dismiss()
+            // Environment에서 PresentationMode를 선언하고 해당 변수에 wrappedValue를 dismiss하면 해당 네비게이션 하이라키에서 뒤로 돌아갈수 있다.
+        }
+    }
+    func textIsAppropriate() -> Bool {
+        if textFiledText.count < 3 {
+            alertTitle = "Your new todo item must be at least 3 characters long!"
+            showAlert.toggle()
+            return false
+        }
+        //
+        return true
+    }
+    func getAlert() -> Alert {
+        return Alert(title: Text(alertTitle))
     }
 }
 
