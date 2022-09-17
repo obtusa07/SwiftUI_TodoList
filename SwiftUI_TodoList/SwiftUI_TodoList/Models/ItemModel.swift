@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct ItemModel: Identifiable {
+struct ItemModel: Identifiable, Codable {
     //uuid를 String으로 만듬으로서 다른 DB와 호환이 용이하도록 만들기
     let id: String
     let title: String
