@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct AddView: View {
-    let backgroundColor: UIColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
     @Environment(\.presentationMode) var presentationMode
     @EnvironmentObject var listViewMoel: ListViewModel
     @State var textFiledText: String = ""
@@ -20,7 +19,7 @@ struct AddView: View {
                 TextField("Type something here...", text: $textFiledText)
                     .padding(.horizontal)
                     .frame(height: 55)
-                    .background(Color(backgroundColor))
+                    .background(Color(UIColor.secondarySystemBackground))
                     .cornerRadius(10)
                 Button {
                     saveButtonPressed()
