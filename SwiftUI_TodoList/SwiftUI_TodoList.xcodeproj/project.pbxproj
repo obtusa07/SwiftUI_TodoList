@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B12543028E5756B006112E7 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B12542F28E5756B006112E7 /* NoItemsView.swift */; };
 		7B13EC1528CF1B24005BC3EA /* SwiftUI_TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13EC1428CF1B24005BC3EA /* SwiftUI_TodoListApp.swift */; };
 		7B13EC1928CF1B25005BC3EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B13EC1828CF1B25005BC3EA /* Assets.xcassets */; };
 		7B13EC1C28CF1B25005BC3EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B13EC1B28CF1B25005BC3EA /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B12542F28E5756B006112E7 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		7B13EC1128CF1B24005BC3EA /* SwiftUI_TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B13EC1428CF1B24005BC3EA /* SwiftUI_TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TodoListApp.swift; sourceTree = "<group>"; };
 		7B13EC1828CF1B25005BC3EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				7BEAF20128CF1F5E0031ADFE /* ListView.swift */,
 				7BEAF20328CF21A40031ADFE /* ListRowView.swift */,
 				7BEAF20528CF32680031ADFE /* AddView.swift */,
+				7B12542F28E5756B006112E7 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				7BDCE8B028D07A8F006E0D78 /* ListViewModel.swift in Sources */,
 				7B13EC1528CF1B24005BC3EA /* SwiftUI_TodoListApp.swift in Sources */,
 				7BEAF20228CF1F5E0031ADFE /* ListView.swift in Sources */,
+				7B12543028E5756B006112E7 /* NoItemsView.swift in Sources */,
 				7BEAF20428CF21A40031ADFE /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
