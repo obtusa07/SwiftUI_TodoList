@@ -32,7 +32,7 @@ struct ListView: View {
                 .listStyle(PlainListStyle())
             }
         }
-        .navigationTitle("Memo List 📝")
+        .navigationTitle("Task List 📝")
         .toolbar {
             ToolbarItemGroup(placement: .navigationBarLeading) {
                 EditButton()
