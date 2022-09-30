@@ -11,7 +11,8 @@
 
 ## Image
 
-<img width="200" alt="main_1" src="https://user-images.githubusercontent.com/47441965/193199837-ee8a1f65-239e-4fd0-be4d-357f8b039fd7.png">
+<img width="200" alt="main_1" src="https://user-images.githubusercontent.com/47441965/193234281-14ed3d1c-5af0-42f0-82ef-264a78cce6c7.png">
+
 
 ## Struct
 
