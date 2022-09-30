@@ -63,9 +63,9 @@
 		7B13EC1328CF1B24005BC3EA /* SwiftUI_TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				7B13EC1428CF1B24005BC3EA /* SwiftUI_TodoListApp.swift */,
 				7BDCE8AE28D07A72006E0D78 /* ViewModels */,
 				7BEAF20728CF3BC70031ADFE /* Models */,
-				7B13EC1428CF1B24005BC3EA /* SwiftUI_TodoListApp.swift */,
 				7BEAF20028CF1F4A0031ADFE /* Views */,
 				7B13EC1828CF1B25005BC3EA /* Assets.xcassets */,
 				7B13EC1A28CF1B25005BC3EA /* Preview Content */,
