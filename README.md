@@ -12,3 +12,17 @@
 ## Image
 
 <img width="200" alt="main_1" src="https://user-images.githubusercontent.com/47441965/193199837-ee8a1f65-239e-4fd0-be4d-357f8b039fd7.png">
+
+## Struct
+
+- ViewModel
+  - ListViewModel
+- Models
+  - ItemModel
+- Views
+  - Launch Screen
+  - ListView
+  - ListRowView
+  - AddView
+  - NoItemsView
+- Assets  
