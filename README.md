@@ -13,6 +13,9 @@
 
 <img width="200" alt="main_1" src="https://user-images.githubusercontent.com/47441965/193253499-d26ba47e-69e2-478d-a320-9f27f8c2c7d0.gif">
 
+![image](https://user-images.githubusercontent.com/47441965/193253839-87e00c73-f23e-48a5-a78a-36a53251e0cf.png)
+
+![image](https://user-images.githubusercontent.com/47441965/193254461-a6374d97-7bb8-41bf-b7e9-8564c05bc875.png)
 
 ## Struct
 
